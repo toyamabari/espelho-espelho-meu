@@ -1,14 +1,26 @@
+:root {
+    --bg-page: #f5f3ff;
+    --bg-surface: #ffffff;
+    --text-main: #1e1633;
+    --text-muted: #6b6282;
+    --border-subtle: #e5dff5;
+    --brand-primary: #7c3aed;
+    --brand-pink: #ec4899;
+    --brand-gradient: linear-gradient(135deg, #7c3aed, #ec4899, #f59e0b);
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background: #fafafa;
-    color: #262626;
-    font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg-page);
+    color: var(--text-main);
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
 }
 
-button {
+button,
+input {
     font: inherit;
 }

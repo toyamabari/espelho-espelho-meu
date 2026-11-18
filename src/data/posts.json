@@ -1,32 +1,100 @@
 [
   {
     "id": 1,
-    "user": "ana.dev",
-    "location": "São Paulo, Brasil",
-    "avatar": "/images/avatars/ana.jpg",
-    "image": "/images/posts/post-1.jpg",
-    "alt": "Mesa de trabalho com notebook e café",
-    "likes": 128,
-    "caption": "Construindo uma interface por vez. ✨"
+    "user": "lyra.kepler",
+    "fullName": "Dra. Lyra Vance",
+    "bio": "Astro-botânica 🌿 | Cultivando as primeiras florestas fora da Terra.",
+    "location": "Estufa Orbital Kepler-442",
+    "avatar": "/images/avatars/Lyra.jpg",
+    "image": "/images/posts/estufa.png",
+    "storyImage": "/images/posts/estufa.png",
+    "alt": "Estufa espacial iluminada por plantas bioluminescentes sob um céu estrelado",
+    "likes": 842,
+    "caption": "O que eu mais queria ver hoje: uma cúpula inteira de samambaias bioluminescentes respirando sob a luz de duas luas. Depois de três anos ajustando a gravidade artificial, a floresta finalmente acordou. ✨🌱",
+    "comments": [
+      {
+        "id": 101,
+        "user": "dante.mare",
+        "text": "Essa luz azulada ficou de outro mundo, Lyra!"
+      },
+      {
+        "id": 102,
+        "user": "kael.synth",
+        "text": "Dá vontade de gravar um álbum inteiro aí dentro."
+      }
+    ]
   },
   {
     "id": 2,
-    "user": "viajante",
-    "location": "Rio de Janeiro, Brasil",
-    "avatar": "/images/avatars/viajante.jpg",
-    "image": "/images/posts/post-2.jpg",
-    "alt": "Paisagem de uma praia ao entardecer",
-    "likes": 342,
-    "caption": "Fim de tarde com vista para o mar."
+    "user": "dante.mare",
+    "fullName": "Dante Maré",
+    "bio": "Arquiteto Subaquático 🌊 | Projetando bibliotecas silenciosas no fundo do oceano.",
+    "location": "Fossa das Marianas — Setor Sul",
+    "avatar": "/images/avatars/Dante.jpg",
+    "image": "/images/posts/biblioteca.png",
+    "storyImage": "/images/posts/biblioteca.png",
+    "alt": "Biblioteca subaquática com grandes janelas de vidro e baleias nadando ao fundo",
+    "likes": 1294,
+    "caption": "Sempre sonhei em tomar café vendo baleias passarem pela janela da sala de leitura. Hoje abrimos as comportas do primeiro observatório submerso a 400 metros de profundidade. 🐋📖",
+    "comments": [
+      {
+        "id": 201,
+        "user": "mira.arcade",
+        "text": "O silêncio desse lugar deve ser a melhor paz do mundo."
+      }
+    ]
   },
   {
     "id": 3,
-    "user": "cafecomcodigo",
-    "location": "Curitiba, Brasil",
-    "avatar": "/images/avatars/cafe.jpg",
-    "image": "/images/posts/post-3.jpg",
-    "alt": "Xícara de café ao lado de um teclado",
-    "likes": 87,
-    "caption": "Qual é a sua trilha sonora para programar?"
+    "user": "kael.synth",
+    "fullName": "Kaelen Solis",
+    "bio": "Luthier de Sintetizadores & Físico Acústico 🎛️ | Transformando estrelas em som.",
+    "location": "Observatório Sonoro do Atacama",
+    "avatar": "/images/avatars/Kael.jpg",
+    "image": "/images/posts/sintetizadores.png",
+    "storyImage": "/images/sintetizadores.png",
+    "alt": "Estúdio aberto no deserto com sintetizadores modulares iluminados sob a Via Láctea",
+    "likes": 619,
+    "caption": "Minha visão perfeita de domingo: uma parede inteira de osciladores analógicos sincronizados com as ondas de rádio da Via Láctea no meio do deserto. 🎹🌌",
+    "comments": [
+      {
+        "id": 301,
+        "user": "lyra.kepler",
+        "text": "Quero muito ouvir a frequência dessa máquina!"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "user": "mira.arcade",
+    "fullName": "Mira Takahashi",
+    "bio": "Restauradora de Fliperamas & Pixel Artist 🕹️ | Preservando memórias em 16-bits.",
+    "location": "Galeria Neon, Neo-Tóquio",
+    "avatar": "/images/avatars/Mira.jpg",
+    "image": "/images/posts/fliperama.png",
+    "storyImage": "/images/posts/fliperama.png",
+    "alt": "Corredor de fliperamas retrô iluminados por luzes neon violeta e rosa",
+    "likes": 975,
+    "caption": "Tudo o que eu mais queria ver pronto: um fliperama subterrâneo iluminado apenas pelo brilho das telas CRT enquanto a chuva bate na vitrine lá fora. 👾☔",
+    "comments": []
+  },
+    {
+    "id": 3,
+    "user": "kael.synth",
+    "fullName": "Kaelen Solis",
+    "bio": "Luthier de Sintetizadores & Físico Acústico 🎛️ | Transformando estrelas em som.",
+    "location": "São Paulo - SP",
+    "avatar": "/images/avatars/Kael.jpg",
+    "image": "/images/posts/lalala.png",
+    "alt": "Influenciadora de Free Fire Laís Toyama",
+    "likes": 10000000,
+    "caption": "Hoje tive o grande prazer de conhecer a Laís, uma grande influenciadora de Free Fire, fiquei emocionado em conhece-la, espero ter outras oportunidade de conversar com a mesma",
+    "comments": [
+      {
+        "id": 301,
+        "user": "lyra.kepler",
+        "text": "Quero muito conhecer ela pessoalmente, gosto muito do conteúdo dela!"
+      }
+    ]
   }
 ]
